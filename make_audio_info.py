@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8  -*-
 """
-Construct templates and categories for cccccccvv .
+Construct templates and categories for audio files upload from Musikverket.
 """
 from collections import OrderedDict
 import os.path
@@ -55,7 +55,9 @@ class MusikverketInfo(MakeBaseInfo):
         meta_cats = set(item.meta_cats)
         if len(cats) < 1:
             meta_cats.add(
-                "Media contributed by the Swedish Performing Arts Agency: needing categorisation")
+                ("Media contributed by the Swedish Performing "
+                    "Arts Agency: needing categorisation")
+            )
         meta_cats.add(self.batch_cat)
         return list(meta_cats)
 
