@@ -34,9 +34,11 @@ class MusikverketInfo(MakeBaseInfo):
         self.category_cache = []
 
     def load_data(self, in_file):
+        """Load local metadata file."""
         return common.open_and_read_file(in_file, as_json=False)
 
     def generate_content_cats(self, item):
+        """Generate set of content categories."""
         item.generate_collection_cat()
         return [x for x in list(item.content_cats) if x is not None]
 
@@ -52,6 +54,7 @@ class MusikverketInfo(MakeBaseInfo):
             title, PROVIDER, id_no)
 
     def generate_meta_cats(self, item, cats):
+        """Add meta categories."""
         meta_cats = set(item.meta_cats)
         if len(cats) < 1:
             meta_cats.add(
@@ -61,6 +64,14 @@ class MusikverketInfo(MakeBaseInfo):
         return list(meta_cats)
 
     def get_original_filename(self, item):
+        """
+        Get original filenames of this data object.
+
+        In this batch, the relationship between
+        file names and ID's in metadata is
+        inconsistent, so we're using a local
+        mapping to assign files to metadata objects.
+        """
         orig_filename = None
         file_id_in_item = item.file_id
         path = IMAGE_DIR
@@ -71,6 +82,7 @@ class MusikverketInfo(MakeBaseInfo):
         return orig_filename
 
     def load_mappings(self, update_mappings):
+        """Load local mapping files."""
         performers_file = os.path.join(MAPPINGS_DIR, 'performers.json')
         places_file = os.path.join(MAPPINGS_DIR, 'performance_places.json')
         files_file = os.path.join(MAPPINGS_DIR, 'files.json')
@@ -92,6 +104,7 @@ class MusikverketInfo(MakeBaseInfo):
         pywikibot.output('Loaded all mappings')
 
     def make_info_template(self, item):
+        """Create info template and fill it with data."""
         template_name = 'Musikverket-audio'
         template_data = OrderedDict()
         template_data['title'] = item.generate_title()
@@ -106,6 +119,12 @@ class MusikverketInfo(MakeBaseInfo):
         return helpers.output_block_template(template_name, template_data, 0)
 
     def process_data(self, raw_data):
+        """
+        Create data objects from source metadata.
+
+        In this batch, some metadata objects
+        have more than one audio file assigned.
+        """
         d = {}
         files_mapping = self.mappings["files"]
         lines_data = raw_data.split("\n")
@@ -165,6 +184,7 @@ class MusikverketItem(object):
             return helpers.stdDate(self.timestamp)
 
     def generate_collection(self):
+        """Add collection information."""
         library = "Musik- och teaterbiblioteket"
         return "{}, {}".format(library, self.collection)
 
@@ -183,23 +203,27 @@ class MusikverketItem(object):
                 return self.performance_place
 
     def generate_collection_cat(self):
+        """Add appropriate collection category."""
         mapping = self.musikverket_info.mappings['collections']
         if self.collection and mapping.get(self.collection):
             self.content_cats.add(
                 mapping.get(self.collection))
 
     def generate_title(self):
+        """Add title to info template."""
         title = ""
         if self.title:
             title = self.title
         return title
 
     def generate_description(self):
+        """Add description to info template."""
         desc_string = self.description + "\n"
         swedish = "{{{{sv|{}}}}}".format(desc_string)
         return swedish
 
     def generate_notes(self):
+        """Add notes to info template."""
         notes_string = ""
         if self.instruments:
             instruments = helpers.bolden(
@@ -224,6 +248,7 @@ class MusikverketItem(object):
         return notes_string
 
     def generate_source(self):
+        """Add source info to info template."""
         template = '{{Musikverket cooperation project}}'
         text = self.type
         if self.collection:
@@ -231,6 +256,7 @@ class MusikverketItem(object):
         return "{}\n{}".format(text, template)
 
     def generate_license(self):
+        """Add license to info template."""
         return "{{PD-old}}"
 
 
