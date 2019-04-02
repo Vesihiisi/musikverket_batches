@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8  -*-
-"""
-Construct templates and categories for audio files upload from Musikverket.
-"""
+"""Create templates and categories for Musikverket wav upload."""
 from collections import OrderedDict
 import os.path
 from os import listdir
@@ -14,7 +12,7 @@ import batchupload.helpers as helpers
 from batchupload.make_info import MakeBaseInfo
 
 MAPPINGS_DIR = 'mappings'
-IMAGE_DIR = 'audio'
+FILE_DIR = 'audio'
 # stem for maintenance categories
 BATCH_CAT = 'Media contributed by the Swedish Performing Arts Agency'
 BATCH_DATE = '2019-04'  # branch for this particular batch upload
@@ -74,7 +72,7 @@ class MusikverketInfo(MakeBaseInfo):
         """
         orig_filename = None
         file_id_in_item = item.file_id
-        path = IMAGE_DIR
+        path = FILE_DIR
         for fname in listdir(path):
             file_on_disc = fname.split(".")[0]
             if file_on_disc == file_id_in_item:
