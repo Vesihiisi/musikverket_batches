@@ -19,6 +19,7 @@ IMAGE_DIR = 'audio'
 BATCH_CAT = 'Media contributed by the Swedish Performing Arts Agency'
 BATCH_DATE = '2019-04'  # branch for this particular batch upload
 LOGFILE = "audio.log"
+PROVIDER = "SMV"
 
 
 class MusikverketInfo(MakeBaseInfo):
@@ -41,7 +42,6 @@ class MusikverketInfo(MakeBaseInfo):
 
     def generate_filename(self, item):
         id_no = item.id_no
-        provider = "SMV"
         if len(item.title) <= 1:
             title = item.description
         else:
@@ -49,14 +49,13 @@ class MusikverketInfo(MakeBaseInfo):
         if item.file_counter > 1:
             id_no = id_no + "_({})".format(item.file_counter)
         return helpers.format_filename(
-            title, provider, id_no)
+            title, PROVIDER, id_no)
 
     def generate_meta_cats(self, item, cats):
         meta_cats = set(item.meta_cats)
         if len(cats) < 1:
             meta_cats.add(
-                ("Media contributed by the Swedish Performing "
-                    "Arts Agency: needing categorisation")
+                "{}: needing categorisation".format(BATCH_CAT)
             )
         meta_cats.add(self.batch_cat)
         return list(meta_cats)
