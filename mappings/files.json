@@ -1,0 +1,393 @@
+{
+  "78F 0098": [
+    "78F_098_EQ"
+  ],
+  "78F 0102": [
+    "78F_102A_EQ",
+    "78F_102B_EQ"
+  ],
+  "78F 0103": [
+    "78F_103A_EQ",
+    "78F_103B_EQ"
+  ],
+  "78F 0285": [
+    "78F_285A",
+    "78F_285B"
+  ],
+  "78F 0563": [
+    "78F_563A_EQ",
+    "78F_563B_EQ"
+  ],
+  "78F 0570": [
+    "78F_570A_EQ",
+    "78F_570B_EQ"
+  ],
+  "MMF7_0033": [
+    "MMF7_0033"
+  ],
+  "MMF7_0284": [
+    "MMF7_0284"
+  ],
+  "MMF7_0285": [
+    "MMF7_0285"
+  ],
+  "MMF7_0286": [
+    "MMF7_0286"
+  ],
+  "MMF7_0287": [
+    "MMF7_0287"
+  ],
+  "MMF7_0288": [
+    "MMF7_0288"
+  ],
+  "MMF7_0396": [
+    "MMF7_0396"
+  ],
+  "MMF7_0397": [
+    "MMF7_0397"
+  ],
+  "MMG7_0022": [
+    "MMG7_0022"
+  ],
+  "MMG7_0023": [
+    "MMG7_0023_kopia",
+    "MMG7_0023_original"
+  ],
+  "MMG7_0024": [
+    "MMG7_0024_kopia",
+    "MMG7_0024_Original"
+  ],
+  "MMG7_0029": [
+    "MMG7_0029"
+  ],
+  "MMG7_0030": [
+    "MMG7_0030"
+  ],
+  "MMG7_0031": [
+    "MMG7_0031"
+  ],
+  "MMG7_0038": [
+    "MMG7_0038"
+  ],
+  "MMG7_0039": [
+    "MMG7_0039"
+  ],
+  "MMG7_0040": [
+    "MMG7_0040"
+  ],
+  "MMG7_0041": [
+    "MMG7_0041"
+  ],
+  "MMG7_0043": [
+    "MMG7_004301",
+    "MMG7_004302"
+  ],
+  "MMG7_0044": [
+    "MMG7_0044"
+  ],
+  "MMG7_0045": [
+    "MMG7_0045"
+  ],
+  "MMG7_0048": [
+    "MMG7_004801",
+    "MMG7_004802"
+  ],
+  "MMG7_0049": [
+    "MMG7_004901",
+    "MMG7_004902"
+  ],
+  "MMG7_0050": [
+    "MMG7_0050"
+  ],
+  "MMG7_0051": [
+    "MMG7_0051"
+  ],
+  "MMG7_0052": [
+    "MMG7_0052"
+  ],
+  "SVA BB 0725": [
+    "SVABB0725"
+  ],
+  "SVA BB 2667": [
+    "SVABB2667"
+  ],
+  "SVA BB 4072": [
+    "SVABB4072A",
+    "SVABB4072B"
+  ],
+  "SVA BB 4073": [
+    "SVABB4073A",
+    "SVABB4073B"
+  ],
+  "SVA BB 7811": [
+    "SVABB7811"
+  ],
+  "SVA BB 7812": [
+    "SVABB7812"
+  ],
+  "SVA BB 7813": [
+    "SVABB7813"
+  ],
+  "SVA CYL 0212": [
+    "SVACYL0212_ALB"
+  ],
+  "SVA CYL 0214": [
+    "SVACYL0214_ALB"
+  ],
+  "SVA CYL 0215": [
+    "SVACYL0215_ALB"
+  ],
+  "SVA CYL 0216": [
+    "SVACYL0216_ALB"
+  ],
+  "SVA CYL 0217": [
+    "SVACYL0217_ALB"
+  ],
+  "SVA CYL 0218": [
+    "SVACYL0218_ALB"
+  ],
+  "SVA CYL 0220": [
+    "SVACYL0220_ALB"
+  ],
+  "SVA CYL 0221": [
+    "SVACYL0221_ALB"
+  ],
+  "SVA CYL 0222": [
+    "SVACYL0222_ALB"
+  ],
+  "SVA CYL 0223": [
+    "SVACYL0223_ALB"
+  ],
+  "SVA CYL 0225": [
+    "SVACYL0225_ALB"
+  ],
+  "SVA CYL 0226": [
+    "SVACYL0226_ALB"
+  ],
+  "SVA CYL 0227": [
+    "SVACYL0227_ALB"
+  ],
+  "SVA CYL 0228": [
+    "SVACYL0228_ALB"
+  ],
+  "SVA CYL 0230": [
+    "SVACYL0230_ALB"
+  ],
+  "SVA CYL 0231": [
+    "SVACYL0231_ALB"
+  ],
+  "SVA CYL 0232": [
+    "SVACYL0232_ALB"
+  ],
+  "SVA CYL 0233": [
+    "SVACYL0233_ALB"
+  ],
+  "SVA CYL 0234": [
+    "SVACYL0234_ALB"
+  ],
+  "SVA CYL 0235": [
+    "SVACYL0235_ALB"
+  ],
+  "SVA CYL 0236": [
+    "SVACYL0236_ALB"
+  ],
+  "SVA CYL 0237": [
+    "SVACYL0237_ALB"
+  ],
+  "SVA CYL 0238": [
+    "SVACYL0238_ALB"
+  ],
+  "SVA CYL 0240": [
+    "SVACYL0240_ALB"
+  ],
+  "SVA CYL 0242": [
+    "SVACYL0242_ALB"
+  ],
+  "SVA CYL 0243": [
+    "SVACYL0243_ALB"
+  ],
+  "SVA CYL 0245": [
+    "SVACYL0245_ALB"
+  ],
+  "SVA CYL 0246": [
+    "SVACYL0246_ALB"
+  ],
+  "SVA CYL 0247": [
+    "SVACYL0247_ALB"
+  ],
+  "SVA CYL 0248": [
+    "SVACYL0248_ALB"
+  ],
+  "SVA CYL 0249": [
+    "SVACYL0249_ALB_Städad"
+  ],
+  "SVA CYL 0250": [
+    "SVACYL0250_ALB"
+  ],
+  "SVA CYL 0251": [
+    "SVACYL0251_ALB"
+  ],
+  "SVA CYL 0252": [
+    "SVACYL0252_ALB"
+  ],
+  "SVA CYL 0253": [
+    "SVACYL0253_ALB"
+  ],
+  "SVA CYL 0254": [
+    "SVACYL0254_ALB"
+  ],
+  "SVA CYL 0257": [
+    "SVACYL0257_ALB"
+  ],
+  "SVA CYL 0258": [
+    "SVACYL0258_ALB"
+  ],
+  "SVA CYL 0259": [
+    "SVACYL0259_ALB"
+  ],
+  "SVA CYL 0260": [
+    "SVACYL0260_ALB"
+  ],
+  "SVA CYL 0261": [
+    "SVACYL0261_ALB"
+  ],
+  "SVA CYL 0262": [
+    "SVACYL0262_ALB"
+  ],
+  "SVA CYL 0263": [
+    "SVACYL0263_ALB"
+  ],
+  "SVA CYL 0264": [
+    "SVACYL0264_ALB"
+  ],
+  "SVA CYL 0265": [
+    "SVACYL0265_ALB"
+  ],
+  "SVA CYL 0266": [
+    "SVACYL0266_ALB"
+  ],
+  "SVA CYL 0268": [
+    "SVACYL0268_ALB"
+  ],
+  "SVA CYL 0269": [
+    "SVACYL0269_ALB"
+  ],
+  "SVA CYL 0271": [
+    "SVACYL0271_ALB"
+  ],
+  "SVA CYL 0272": [
+    "SVACYL0272_ALB"
+  ],
+  "SVA CYL 0273": [
+    "SVACYL0273_ALB"
+  ],
+  "SVA CYL 0274": [
+    "SVACYL0274_ALB"
+  ],
+  "SVA CYL 0276": [
+    "SVACYL0276_ALB"
+  ],
+  "SVA CYL 0277": [
+    "SVACYL0277_ALB"
+  ],
+  "SVA CYL 0278": [
+    "SVACYL0278_ALB"
+  ],
+  "SVA CYL 0279": [
+    "SVACYL0279_ALB"
+  ],
+  "SVA CYL 0280": [
+    "SVACYL0280_ALB"
+  ],
+  "SVA CYL 0281": [
+    "SVACYL0281_ALB"
+  ],
+  "SVA CYL 0282": [
+    "SVACYL0282_ALB"
+  ],
+  "SVA CYL 0283": [
+    "SVACYL0283_SR"
+  ],
+  "SVA JL 0876": [
+    "SVAJL087601",
+    "SVAJL087602"
+  ],
+  "SVA JL 0921": [
+    "SVAJL092101",
+    "SVAJL092102"
+  ],
+  "SVA JL 0930": [
+    "SVAJL093001",
+    "SVAJL093002",
+    "SVAJL093003"
+  ],
+  "SVA JL 0953": [
+    "SVAJL095301",
+    "SVAJL095302",
+    "SVAJL095303"
+  ],
+  "SVA JL 0960": [
+    "SVAJL0960"
+  ],
+  "SVA JL 0989": [
+    "SVAJL0989A",
+    "SVAJL0989B"
+  ],
+  "SVA JL 1082": [
+    "SVAJL108201_EQ",
+    "SVAJL108202_EQ"
+  ],
+  "SVA JL 1083": [
+    "SVAJL108301_EQ",
+    "SVAJL108302_EQ"
+  ],
+  "SVA JL 1084": [
+    "SVAJL108401_EQ",
+    "SVAJL108402_EQ"
+  ],
+  "SVAB20060724AN004": [
+    "SVAB20060724AN004"
+  ],
+  "SVAB20160914BK001": [
+    "SVAB20160914BK001"
+  ],
+  "SVAB20160914BK002": [
+    "SVAB20160914BK002"
+  ],
+  "SVAB20181126PK001": [
+    "SVAB20181126PK001"
+  ],
+  "SVAB20181126PK002": [
+    "SVAB20181126PK002"
+  ],
+  "SVAB20190208OA001": [
+    "SVAB20190208OA001"
+  ],
+  "SVAB20190208OA002": [
+    "SVAB20190208OA002"
+  ],
+  "SVAB20190208OA003": [
+    "SVAB20190208OA003"
+  ],
+  "SVAB20190208OA004": [
+    "SVAB20190208OA004"
+  ],
+  "SVAB20190208OA005": [
+    "SVAB20190208OA005"
+  ],
+  "SVAB20190208OA006": [
+    "SVAB20190208OA006"
+  ],
+  "SVAB20190208OA007": [
+    "SVAB20190208OA007"
+  ],
+  "SVAB20190208OA008": [
+    "SVAB20190208OA008"
+  ],
+  "SVAB20190208OA009": [
+    "SVAB20190208OA009"
+  ],
+  "SVAB20190221PS001": [
+    "SVAB20190221PS001"
+  ]
+}
